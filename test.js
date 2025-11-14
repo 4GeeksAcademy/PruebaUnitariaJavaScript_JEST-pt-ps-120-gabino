@@ -32,6 +32,6 @@ test('Convertir 1 dólar a yenes', ()=>{
 
 test('Convertir 1 yen a libras', ()=>{
     const expected = (1 / 156.5) * 0.87;
-    expect(fromYenToPound((1)).toBeCloseTo(expected);
+    expect(fromYenToPound(1)).toBeCloseTo(expected);
 });
 
