@@ -26,12 +26,12 @@ test('Convertir 1 euro a 1.07 dollares', ()=>{
 });
 
 test('Convertir 1 dólar a yenes', ()=>{
-    const expected = (1 / 1.07) * 156.5;
+    const expected = (1 / 1.07) * 156.6;
     expect(fromDollarToYen(1)).toBeCloseTo(expected);
 });
 
 test('Convertir 1 yen a libras', ()=>{
-    const expected = (1 / 156.5) * 0.87;
+    const expected = (1 / 156.6) * 0.87;
     expect(fromYenToPound(1)).toBeCloseTo(expected);
 });
 
